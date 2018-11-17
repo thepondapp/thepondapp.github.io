@@ -69,6 +69,12 @@ body {
   color: #40E0D0;
 }
 
+@media (min-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+  }
+}
+
 h2 {
   font-family: 'Lane', 'Helvetica', 'sans-serif';
   margin-bottom: 40px;
@@ -457,6 +463,7 @@ and (min-width: 550px) {
   background-color: rgba(54,69,79,0.70);
   width: 100%;
   height: 100%;
+  padding: 50px 0px;
 }
 
 .lines {
