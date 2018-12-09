@@ -75,6 +75,15 @@ body {
   }
 }
 
+.brand-logo {
+  height: 25px;
+}
+
+.brand-logo-text {
+  margin-left: 10px;
+  height: 20px;
+}
+
 h2 {
   font-family: 'Lane', 'Helvetica', 'sans-serif';
   margin-bottom: 40px;
