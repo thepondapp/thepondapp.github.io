@@ -182,7 +182,7 @@ h2 {
 #home h4 {
   margin-top: 20px;
   font-family: 'Lane', 'Helvetica', 'sans-serif';
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 100;
 }
 
@@ -359,6 +359,15 @@ and (min-width: 550px) {
 
 #splash-1 {
   text-align: center;
+  max-width: 540px;
+  width: 100%;
+}
+
+#splash-2 {
+  margin-bottom: 0px !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold !important;
   width: 100%;
 }
 
@@ -366,7 +375,8 @@ and (min-width: 550px) {
   height: 300px;
 }
 
-#splash-2 {
+#splash-3 {
+  margin-top: 0px !important;
   text-align: center;
   width: 100%;
 }
