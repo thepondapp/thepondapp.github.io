@@ -43,6 +43,10 @@ body {
   display: none;
 }
 
+.navbar-faq {
+  display: block;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
@@ -143,7 +147,7 @@ h2 {
 } */
 
 #home h3 {
-  font-size: 54px;
+  font-size: 46px;
   font-family: 'Lane', 'Helvetica', 'sans-serif';
   font-weight: bold;
 }
@@ -201,17 +205,20 @@ h2 {
 
 #faq p {
   font-size: 18px;
+  color: #36454f;
 }
 
 #faq h3 {
   font-size: 2.75em;
   margin-bottom: 5px;
+  color: #36454f;
 }
 
 #faq h4 {
   font-size: 1.4em;
   margin-top: 5px;
   font-weight: bold;
+  color: #36454f;
 }
 
 .faq-index .item {
@@ -219,7 +226,7 @@ h2 {
 }
 
 .faq-index .item.active .title {
-  color: #2E8B57;
+  color: #36454f;
 }
 
 .faq-index .title {
@@ -227,7 +234,7 @@ h2 {
   padding-right: 40px;
   line-height: 1.2em;
   font-size: 1.3em;
-  color: #ffffff;
+  color: #36454f;
   cursor: pointer;
 }
 
@@ -250,7 +257,7 @@ h2 {
 }
 
 .faq-index .item.active .arrows {
-  color: #2E8B57;
+  color: #40E0D0;
   opacity: 1;
 }
 .faq-index .arrows {
@@ -259,16 +266,15 @@ h2 {
   right: 15px;
   font-size: 30px;
   cursor: pointer;
-  opacity: 0.25;
+  opacity: 1;
   transition: 0.2s all ease-in-out;
+  color:#40E0D0;
 }
 
 .faq-index .item.active i {
   transform: rotateX(180deg);
 }
 
-.fa {
-  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -278,6 +284,10 @@ h2 {
 
 .fa-angle-down {
   content: "\f107";
+}
+
+.item .body a {
+  text-decoration: underline;
 }
 
 /*
@@ -624,7 +634,7 @@ p {
 #contact-background {
   width: 100%;
   color: white;
-  background-color: #FFFFFF;
+  background-color: #36454f;
   padding: 20px;
 }
 
