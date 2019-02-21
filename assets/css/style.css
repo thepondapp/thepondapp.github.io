@@ -40,6 +40,7 @@ body {
 .navbar-default {
   background-color: #36454f;
   border: none;
+  display: none;
 }
 
 .navbar-faq {
@@ -146,7 +147,7 @@ h2 {
 } */
 
 #home h3 {
-  font-size: 40px;
+  font-size: 46px;
   font-family: 'Lane', 'Helvetica', 'sans-serif';
   font-weight: bold;
 }
@@ -420,7 +421,7 @@ and (min-width: 550px) {
   margin-left: 30px;
 }
 
-#how-it-works img {
+#your-data img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
@@ -431,16 +432,12 @@ and (min-width: 550px) {
   margin: 25px 0px 25px 0px;
 }
 
-#how-it-works ul {
-  padding-left: 30px;
-}
-
-#how-it-works li {
+#your-data p {
   font-size: 16px;
   font-weight: 100;
 }
 
-#how-it-works {
+#your-data {
   background: #fff no-repeat 0;
   background-image: url(../img/background/tech1.jpeg);
   background-size: cover;
@@ -448,6 +445,9 @@ and (min-width: 550px) {
   background-attachment: fixed;
 }
 
+#your-data .col-xs-11 {
+  min-height: 90vh;
+}
 /* 
 #mission h4 {
   font-size: 25px;
@@ -469,11 +469,11 @@ and (min-width: 550px) {
 } */
 
 /* HOW IT WORKS
-#how-it-works h2 {
+#your-data h2 {
   color: white;
 }
 
-#how-it-works {
+#your-data {
   background: #fff no-repeat 0;
   background-image: url(../img/background/landscape.jpg);
   background-size: cover;
@@ -509,9 +509,9 @@ and (min-width: 550px) {
   border-image: initial;
 }
 
-/* .about-image {
+.about-image {
   margin: 30px 0px 0px;
-} */
+}
 
 .about-image h4 {
   margin-top: 30px;
