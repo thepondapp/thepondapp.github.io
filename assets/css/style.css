@@ -667,3 +667,13 @@ footer {
   background-color: #36454f;
   padding: 30px 0px;
 }
+
+.section-content-text {
+  color: #36454f;
+  padding: 0px 20px;
+}
+
+.terms-title {
+  padding: 40px;
+  color: #36454f;
+}
