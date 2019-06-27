@@ -88,20 +88,21 @@ body {
 }
 
 h2 {
-  font-family: 'Lane', 'Helvetica', 'sans-serif';
+  /* font-family: 'Lane', 'Helvetica', 'sans-serif'; */
   margin-bottom: 40px;
-  font-weight: 100;
+  font-weight: 900;
   text-align: center;
   border-bottom: 2px solid #40E0D0;
   padding: 0px 20px 10px;
+  font-size: 40px;
 }
 
 
 #home {
   background: #fff no-repeat 0;
-  background-image: url(../img/background/beach1.jpeg);
+  background-image: url(../img/background/splash.jpg);
   background-size: cover;
-  background-position: 50% 95%;
+  background-position: 0% 95%;
   background-attachment: fixed;
 }
 
@@ -146,8 +147,7 @@ h2 {
 } */
 
 #home h3 {
-  font-size: 46px;
-  font-family: 'Lane', 'Helvetica', 'sans-serif';
+  font-size: 64px;
   font-weight: bold;
 }
 
@@ -184,7 +184,7 @@ h2 {
 
 #home h4 {
   margin-top: 20px;
-  font-family: 'Lane', 'Helvetica', 'sans-serif';
+  /* font-family: 'Lane', 'Helvetica', 'sans-serif'; */
   font-size: 24px;
   font-weight: 100;
 }
@@ -371,6 +371,7 @@ and (min-width: 550px) {
 #splash-1 {
   text-align: center;
   width: 100%;
+  font-weight: 900;
 }
 
 #splash-2 {
@@ -392,9 +393,14 @@ and (min-width: 550px) {
 }
 /* home layover text */
 
+#about h2 {
+  color: #36454f;
+}
+
 #about p {
   font-size: 16px;
   font-weight: 100;
+  color: #36454f;
 }
 
 #about h5 {
@@ -405,6 +411,8 @@ and (min-width: 550px) {
 #about h4 {
   font-size: 20px;
   font-weight: bold;
+  color: #36454f;
+  text-align: center;
 }
 
 .flex-start-row {
@@ -414,10 +422,9 @@ and (min-width: 550px) {
 }
 
 #about img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  margin-left: 30px;
+  width: 300px;
+  height: 585px;
+  margin: 10px 0px 40px;
 }
 
 #your-data img {
@@ -425,6 +432,10 @@ and (min-width: 550px) {
   height: 30px;
   margin-right: 10px;
   margin-left: 30px;
+}
+
+#your-data h4 {
+  font-size: 20px;
 }
 
 .examples {
@@ -438,7 +449,7 @@ and (min-width: 550px) {
 
 #your-data {
   background: #fff no-repeat 0;
-  background-image: url(../img/background/tech1.jpeg);
+  background-image: url(../img/background/your-data.jpg);
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
@@ -657,7 +668,6 @@ p {
   color: white;
   background: #40E0D0;
   /* background-image: linear-gradient(90deg, #e5000f, #FF5014FF); */
-  border: 1px solid white;
   border-radius: 5px;
   width: 250px;
   height: 40px;
