@@ -98,13 +98,6 @@ h2 {
   font-size: 48px;
 }
 
-
-#home {
-  background: #fff no-repeat 0;
-  padding-top: 60px;
-  min-height: 100vh;
-}
-
 .font-primary {
   color: #36454f;
 }
@@ -142,6 +135,80 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#home {
+  background: #fff no-repeat 0;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+#download {
+  margin-top: 32px;
+  height: 48px;
+  color: white;
+  background: #36454f;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-decoration-line: none;
+  width: 280px;
+}
+
+#download:hover {
+  background: #40E0D0;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+#home #text h4 {
+  font-size: 24px;
+  color: #40E0D0;
+}
+
+#text .phone-input {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 2px solid #40E0D0;
+  padding: 4px 16px;
+}
+
+#text .country-code {
+  font-size: 16px;
+  padding: 4px 0px 4px 4px;
+}
+
+#text input {
+  font-size: 16px;
+  padding: 4px 4px 4px 4px;
+  width: 140px;
+  border: none;
+  background: white;
+}
+
+#text button {
+  color: white;
+  background: #36454f;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-decoration-line: none;
+  padding: 10px 24px;
+  margin-left: 16px;
+  margin-top: 8px;
+  border: none;
+}
+
+#text button:hover {
+  background: #40E0D0;
+  text-decoration-line: none;
+  cursor: pointer;
 }
 
 #home .splash-left {
