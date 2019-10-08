@@ -211,6 +211,20 @@ h2 {
   cursor: pointer;
 }
 
+#home a {
+  cursor: pointer;
+}
+
+#home .app-store-image {
+  height: 60px;
+  margin-right: 12px;
+}
+
+#home .play-store-image {
+  height: 90px;
+  margin-left: 12px;
+}
+
 #home .splash-left {
   min-height: 80vh;
 }
