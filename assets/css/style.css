@@ -575,6 +575,48 @@ and (min-width: 550px) {
   margin: 0px 0px 0px 12px;
 }
 
+#community h4 {
+  margin: 80px 0px 0px;
+}
+
+#community form {
+  font-family: 'Roboto', 'Helvetica', 'sans-serif';
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#community .button {
+  color: white;
+  background: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+#community input[type="email"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #e8e8e8;
+  margin-right: 10px;
+  width: 250px;
+  margin-bottom: 10px;
+  color: black;
+  background: #e8e8e8;
+}
+
+#community #social a {
+  margin: 16px;
+  background: none;
+}
+
+#community #social img {
+  height: 48px;
+  width: 48px;
+  margin: 8px;
+}
+
 @media(max-width: 470px) {
   #community a {
     height: 40px;
