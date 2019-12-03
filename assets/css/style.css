@@ -672,6 +672,15 @@ and (min-width: 550px) {
   text-align: center;
 }
 
+.partner-logo-container {
+  height: 140px;
+  width: 120px;
+}
+
+.partner-logo {
+  width: 100%;
+}
+
 .team-image {
   margin: 45px 0px 0px;
 }
@@ -680,7 +689,6 @@ and (min-width: 550px) {
   height: 120px;
   border-radius: 10%;
 }
-
 
 .team-image img {
   height: 120px;
@@ -728,10 +736,17 @@ and (min-width: 550px) {
   flex-wrap: wrap;
 }
 
-.centered-row {
+.centered-row-center {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.centered-row-start {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -829,4 +844,3 @@ footer a:hover {
     font-size: 48px;
   }
 }
-
