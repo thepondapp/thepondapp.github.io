@@ -676,6 +676,24 @@ and (min-width: 550px) {
   text-align: center;
 }
 
+.sub-header {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#partners .app-store-image {
+  height: 30px;
+}
+
+#partners .play-store-image {
+  height: 45px;
+  margin-left: 20px;
+}
+
+#partners .centered-row-center {
+  margin-bottom: 32px;
+}
+
 .partner-logo-container {
   height: 140px;
   width: 120px;
